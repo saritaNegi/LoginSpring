@@ -97,6 +97,7 @@
             <version>${logback.version}</version>
         </dependency>
     </dependencies>
+	
     <build>
         <plugins>
             <plugin>
@@ -126,7 +127,7 @@
 <failOnMissingWebXml>false</failOnMissingWebXml>
 </configuration>
 </plugin>
-</plugin>
+
 	    <plugin>
 		<groupId>org.apache.tomcat.maven</groupId>
 		<artifactId>tomcat7-maven-plugin</artifactId>
